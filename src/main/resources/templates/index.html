@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Number <br/>
+    <input type="text" name="tall1"/><br/>
+
+    Amount To Bet $ : <br/>
+    <input type="text" name="tall2"/><br/>
+
+
+<!--    Even : <br/>-->
+<!--    <input type="text" name="tall4"/><br/>-->
+
+<!--    Odd : <br/>-->
+<!--    <input type="text" name="tall3"/><br/>-->
+
+
+
+
+    <br/>
+    <input type="radio" name="mathType" value="pluss"/> Im Older Than 18 + <br/>
+    <br/>
+
+
+
+    <input type="submit" value="Spin"/>
+    <div>
+        <p th:text="number"> </p><p th:text="${two}"></p>
+        <p th:text="winner"> </p><p th:text="${one}"></p>
+        <p th:text="YourBetAmount"> </p><p th:text="${tree}"></p>
+        <p th:text="RemainingMoney"> </p><p th:text="${four}"></p>
+
+    </div>
+
+
+
+</form>
+
+</body>
+</html>
